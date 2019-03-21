@@ -24,7 +24,7 @@
 
    #### 4.TextCNN   --2014 
      4.1 参考论文：Convolutional Neural Networks for Sentence Classification
-     4.2 利用TextCNN进行的代码编写：https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/TextCNN
+     4.2 利用TextCNN进行的代码编写:https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/TextCNN
    #### 5.TextRNN
 
    #### 6.TextRCNN
