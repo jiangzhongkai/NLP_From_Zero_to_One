@@ -5,6 +5,7 @@
 from Data_Processing import *
 from collections import Counter
 from keras.utils import to_categorical
+from keras.preprocessing import sequence
 
 """构建词汇表类"""
 class VocabBuilt(object):
@@ -19,7 +20,6 @@ class VocabBuilt(object):
         :return:
             vocab.txt
         """
-
         self.train_path=train_path
         self.vocab_path=vocab_path
         self.vocab_size=vocab_size
@@ -27,11 +27,16 @@ class VocabBuilt(object):
         self.remove_list=remove_list
 
     def built_vocab(self):
+        """构造单词表"""
 
-        """从训练集中读取数据"""
+        """定义一个内部函数，多次调用"""
         def _read_file(data_path):
-            f=open(data_path,'rb')
-            return f.read().decode(encoding='utf-8',errors='ignore')
+
+            if not os.path.exists(data_path):
+                print("{0} not found.".format(data_path))
+            else:
+                f=open(data_path,'rb')
+                return f.read().decode(encoding='utf-8',errors='ignore')
 
         data_train=_read_file(self.train_path)
         all_data=[]
@@ -39,7 +44,7 @@ class VocabBuilt(object):
             if content not in self.remove_list:
                 all_data.extend(content)
 
-        #计算有多少个单词
+        "计算有多少个单词"
         counter=Counter(all_data)
         counter_pairs=counter.most_common(self.vocab_size-1)
 
@@ -51,11 +56,16 @@ class VocabBuilt(object):
 
     """建立单词到索引的映射"""
     def word_2_idx(self):
-        with open(self.vocab_path) as f:
-            words=[_.strip() for _ in f.readlines()]
-            word_2_id=dict(zip(words,range(len(words))))
 
-        return words,word_2_id
+        if not os.path.exists(self.vocab_path):
+            print("{0} not found.".format(self.vocab_path))
+            exit()
+        else:
+            with open(self.vocab_path) as f:
+                words=[_.strip() for _ in f.readlines()]
+                word_2_id=dict(zip(words,range(len(words))))
+
+            return words,word_2_id
 
     """建立类别与id的映射"""
     def category_2_idx(self,category_list):
@@ -64,9 +74,25 @@ class VocabBuilt(object):
 
         return category_list,category_2_id
 
-    #文本到数值化的操作,以及对标签进行one-hot编码
-    def process_file(self):
-        pass
+    """主要是处理正文和类别"""
+    def process_file(self,filename,category_2_id=None,word_2_id=None,max_length=None):
+
+        #先是读取数据
+        if not os.path.exists(filename):
+            print("{0} not found.".format(filename))
+        else:
+            data_id,label_id=[],[]
+            fp = open(filename, 'r', encoding='utf-8', errors='ignore')
+            for line in fp.readlines():
+                labels=line.split('\t')[0]
+                content=line.split('\t')[1:]
+                for i in range(len(content)):
+                    data_id.append([word_2_id[x] for x in content[i] if x in word_2_id])
+                    label_id.append(category_2_id[label_id[i]])
+            x_pad=sequence.pad_sequences(data_id,max_length)
+            y_pad=to_categorical(label_id,num_classes=len(category_2_id))
+
+            return x_pad,y_pad
 
 if __name__=='__main__':
 
@@ -78,10 +104,12 @@ if __name__=='__main__':
 
     vb=VocabBuilt(train_path='model_dataset/new_train.txt',vocab_path='model_dataset/vocab.txt',vocab_size=5000,dp=dp,remove_list=remove_list)
 
-    vb.built_vocab()
+    # vb.built_vocab()
+    vb.process_file("model_dataset/new_train.txt")
 
-    words,word_2_id=vb.word_2_idx()
-    print(word_2_id)
+    # words,word_2_id=vb.word_2_idx()
+    # print(word_2_id)
+
 
 
 
