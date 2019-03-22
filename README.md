@@ -16,48 +16,53 @@
    
 ## 主要通过以下模型进行编写nlp:
 
-   ### NNLM  --2003
-   *[参考论文:A neural probabilistic language model](http://www.pengjingtian.com/2016/09/17/nnlm/)\
-   *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/NNLM)\
-   ![image](images/nnlm.png)
+### NNLM  --2003
+  *[参考论文:A neural probabilistic language model](http://www.pengjingtian.com/2016/09/17/nnlm/)\
+  *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/NNLM)\
+  ![image](images/nnlm.png)
 
-   ### Word2Vec 
-     1.CBOW
-     2.skip-grams
+### Word2Vec 
+    1.CBOW
+    2.skip-grams
 
-   ### 3.FastText  --2016
+### 3.FastText  --2016
+  *[参考论文:]\
+  *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/FastText)\
+  ![image](images/fasttext.jpg)![image](images/H-softmax.jpg)![image](fasttext_model.jpeg)
+    
 
-   ### 4.TextCNN   --2014 
-   *[参考论文：Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882)\
-   *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/TextCNN)\
-   ![image](images/textCNN.jpg)
-   ### 5.TextRNN
+### 4.TextCNN   --2014 
+  *[参考论文：Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882)\
+  *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/TextCNN)\
+  ![image](images/textCNN.jpg)
+  
+### 5.TextRNN
 
-   ### 6.TextRCNN
+### 6.TextRCNN
 
-   ### 7.TextLSTM
+### 7.TextLSTM
 
-   ### 8.BiLSTM
+### 8.BiLSTM
 
-   ### 9.BiLSTM+Attention
+### 9.BiLSTM+Attention
 
-   ### 10.Seq2Seq
+### 10.Seq2Seq
 
-   ### 11.Seq2Seq+Attention
+### 11.Seq2Seq+Attention
 
-   ### 12.Transformer
+### 12.Transformer
 
-   ### 13.BERT 
+### 13.BERT 
 
-   ### 14.HAN(等级注意力网络)
+### 14.HAN(等级注意力网络)
      
 
 ## 每个py文件主要是包含：
 
-    1.数据预处理
-    2.模型搭建
-    3.模型训练
-    4.模型保存
+   1.数据预处理
+   2.模型搭建
+   3.模型训练
+   4.模型保存
 
 ## 持续更新中，欢迎fork和关注
 
