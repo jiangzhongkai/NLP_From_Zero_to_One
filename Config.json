@@ -1,4 +1,13 @@
-Config={
-  "epoch":1000,
-
+{
+  "batch_size":128,
+  "sequence_length":10,
+  "embedding_dim":128,
+  "epochs":100,
+  "learning_rate":0.005,
+  "dropout":0.2,
+  "hidden_nums":128,
+  "strides":[0,1,0],
+  "filter_nums":3,
+  "padding":[0,0,0],
+  "num_classes":11
 }
