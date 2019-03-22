@@ -28,7 +28,7 @@
 ### 3.FastText  --2016
   *[参考论文:]\
   *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/FastText)\
-  ![image](images/fasttext.jpg)![image](images/H-softmax.jpg)![image](images/fasttext_model.jpeg)
+  ![fasttext](images/fasttext.jpg)![image](images/H-softmax.jpg)![image](images/fasttext_model.jpg)
     
 
 ### 4.TextCNN   --2014 
