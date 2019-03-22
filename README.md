@@ -23,10 +23,10 @@
    #### 3.FastText  --2016
 
    #### 4.TextCNN   --2014 
-   *参考论文：Convolutional Neural Networks for Sentence Classification \
-         *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/TextCNN)\
-         *[数据集：搜狗实验室的数据集](https://www.sogou.com/labs/resource/cs.php)\
-         *TextCNN框架图：![](images/textCNN.jpg)
+   ##### [参考论文：Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882) \
+   ##### [实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/TextCNN)\
+   ##### [数据集：搜狗实验室的数据集](https://www.sogou.com/labs/resource/cs.php)\
+   ##### [](images/textCNN.jpg,'TextCNN结构图')
    #### 5.TextRNN
 
    #### 6.TextRCNN
