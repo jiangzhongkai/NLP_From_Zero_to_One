@@ -27,7 +27,7 @@ class DP(object):
 
           pass
 
-      def read_file(self,txt_file):
+      def _read_file(self,txt_file):
 
           return open(txt_file,'rb').read().decode('gbk',errors='ignore')
 
@@ -47,28 +47,34 @@ class DP(object):
 
 
       def category_data(self,txt_file):
-          f=self.read_file(txt_file)
+          f=self._read_file(txt_file)
           docs_xmls=f.split('<doc>\n')
           for doc in docs_xmls:
               if doc:
                   category,content=self.extract_class_content(doc)
                   self.write_file(category,content)
 
-      #将数据集进行分割成训练集、测试集、验证集
-      def save_file(self,dirname,target_dir):
 
-          train_file=open(target_dir+"/new_train.txt",'w',encoding='utf-8')
-          test_file=open(target_dir+"/new_test.txt",'w',encoding='utf-8')
-          val_file=open(target_dir+'model_dataset/new_val.txt','w',encoding='utf-8')
+      def split_data_into_train_test_val(self,dirname,target_dirname):
+          """
+          :param dirname: 源目录文件
+          :param target_dirname: 目标目录
+          :return: 按一定比例分割完成的数据集
+          """
+          train_file=open(target_dirname+'/new_train.txt','w',encoding='gbk',errors='ignore')
+          test_file=open(target_dirname+'/new_test.txt','w',encoding='gbk',errors='ignore')
+          val_file=open(target_dirname+'/new_val.txt','w',encoding='gbk',errors='ignore')
 
+          #从原目录文件中读取数据
           start=time.time()
           for category in os.listdir(dirname):
-              cat_file=os.path.join(dirname,category)
-              fp=open(cat_file,'rb')
+              #对文件内容进行读取
+              file=os.path.join(dirname,category)
+              fp=open(file,'r',encoding='utf-8',errors='ignore')
               count=0
               for line in fp.readlines():
-                  category=line.decode(encoding='utf-8',errors='ignore')[:len(str(category))]
-                  content=line.decode(encoding='utf-8',errors='ignore')[len(str(category)):]
+                  category=line[:len(str(category))]
+                  content=line[len(str(category)):]
                   if category and content:
                       if count<500:
                           train_file.write(category+'\t'+content+'\n')
@@ -76,30 +82,24 @@ class DP(object):
                           test_file.write(category+'\t'+content+'\n')
                       elif count<850:
                           val_file.write(category+'\t'+content+'\n')
-                      else:
-                          break
+                  else:
+                      break
                   count+=1
-              print("finished",category)
+              print("finished {0}".format(category))
           end=time.time()
-          train_file.close()
-          test_file.close()
-          val_file.close()
-          print("dataset has been splited,it costs:{:<.9f}".format(end-start))
+          print("all category have been finished,total cost {0}sec".format(str(end-start)))
 
 
 if __name__=='__main__':
 
     dp=DP()
-    # start=time.time()
-    #
-    # for file in os.listdir('dataset/'):
-    #     file_path=os.path.join('dataset/',file)
-    #     dp.category_data(file_path)
-    # end=time.time()
-    # print("data processing has been finished,it costs:{}secs.".format(str(end-start)))
+    start=time.time()
 
-
-
+    for file in os.listdir('dataset/'):
+        file_path=os.path.join('dataset/',file)
+        dp.category_data(file_path)
+    end=time.time()
+    print("data processing has been finished,it costs:{}secs.".format(str(end-start)))
 
 
 
