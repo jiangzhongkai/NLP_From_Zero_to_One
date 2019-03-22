@@ -15,10 +15,11 @@
 ## 主要通过以下模型进行编写nlp:
 
    ### NNLM  --2003
+   *[参考论文:]
 
    ### Word2Vec 
-      2.1CBOW
-      2.2skip-grams
+     1.CBOW
+     2.skip-grams
 
    ### 3.FastText  --2016
 
