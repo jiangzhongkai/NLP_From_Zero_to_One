@@ -41,6 +41,9 @@
 ### 5.TextRNN
 
 ### 6.TextRCNN
+  *[参考论文:recurrent convolutional neural networks for text classification](http://link.zhihu.com/?target=http%3A//www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9745/9552)\
+  *[实现代码]
+  
 
 ### 7.TextLSTM
 
