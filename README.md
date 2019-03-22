@@ -11,11 +11,15 @@
      1.tensorflow
      2.numpy,sklearn,pandas,matplotlib
      3.keras
-
+## 数据集：
+   *[数据集：搜狗实验室的数据集](https://www.sogou.com/labs/resource/cs.php)
+   
 ## 主要通过以下模型进行编写nlp:
 
    ### NNLM  --2003
-   *[参考论文:]
+   *[参考论文:A neural probabilistic language model](http://www.pengjingtian.com/2016/09/17/nnlm/)\
+   *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/NNLM)\
+   ![image](images/nnlm.png)
 
    ### Word2Vec 
      1.CBOW
@@ -26,7 +30,6 @@
    ### 4.TextCNN   --2014 
    *[参考论文：Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882)\
    *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/TextCNN)\
-   *[数据集：搜狗实验室的数据集](https://www.sogou.com/labs/resource/cs.php)\
    ![image](images/textCNN.jpg)
    ### 5.TextRNN
 
