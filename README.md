@@ -29,7 +29,7 @@
   *[参考论文:]\
   *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/FastText)\
   *分级softmax![image](images/H-softmax.jpg)\
-  *FatText内部结构[image](images/fasttext.jpg)\
+  *FatText内部结构![image](images/fasttext.jpg)\
   *FastText网络结构![image](images/fasttext_model.jpg)
     
 
@@ -42,7 +42,8 @@
 
 ### 6.TextRCNN
   *[参考论文:recurrent convolutional neural networks for text classification](http://link.zhihu.com/?target=http%3A//www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9745/9552)\
-  *[实现代码]
+  *[实现代码]\
+  ![image](images/TextRCNN.jpg)
   
 
 ### 7.TextLSTM
