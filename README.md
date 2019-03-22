@@ -29,7 +29,7 @@
   *[参考论文:]\
   *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/FastText)\
   *分级softmax![image](images/H-softmax.jpg)\
-  *FatText内部结构[fasttext](images/fasttext.jpg)\
+  *FatText内部结构[image](images/fasttext.jpg)\
   *FastText网络结构![image](images/fasttext_model.jpg)
     
 
