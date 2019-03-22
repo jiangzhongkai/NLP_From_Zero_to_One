@@ -16,19 +16,19 @@
    
 ## 主要通过以下模型进行编写nlp:
 
-### NNLM  --2003
+### 1.NNLM  --2003
   *[参考论文:A neural probabilistic language model](http://www.pengjingtian.com/2016/09/17/nnlm/)\
   *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/NNLM)\
   ![image](images/nnlm.png)
 
-### Word2Vec 
+### 2.Word2Vec 
     1.CBOW
     2.skip-grams
 
 ### 3.FastText  --2016
   *[参考论文:]\
   *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/FastText)\
-  ![image](images/fasttext.jpg)![image](images/H-softmax.jpg)![image](fasttext_model.jpeg)
+  ![image](images/fasttext.jpg)![image](images/H-softmax.jpg)![image](images/fasttext_model.jpeg)
     
 
 ### 4.TextCNN   --2014 
