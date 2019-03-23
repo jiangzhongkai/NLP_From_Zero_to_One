@@ -17,15 +17,18 @@
 ## 主要通过以下模型进行编写nlp:
 
 ### 1.NNLM  --2003
+
   *[参考论文:A neural probabilistic language model](http://www.pengjingtian.com/2016/09/17/nnlm/)\
   *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/NNLM)\
   ![image](images/nnlm.png)
 
 ### 2.Word2Vec 
+
     1.CBOW
     2.skip-grams
 
 ### 3.FastText  --2016
+
   *[参考论文:]\
   *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/FastText)\
   *分级softmax![image](images/H-softmax.jpg)\
@@ -34,6 +37,7 @@
     
 
 ### 4.TextCNN   --2014 
+
   *[参考论文：Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882)\
   *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/TextCNN)\
   ![image](images/textCNN.jpg)
@@ -41,6 +45,7 @@
 ### 5.TextRNN
 
 ### 6.TextRCNN
+
   *[参考论文:recurrent convolutional neural networks for text classification](http://link.zhihu.com/?target=http%3A//www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9745/9552)\
   *[实现代码]\
   ![image](images/TextRCNN.jpg)
