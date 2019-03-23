@@ -67,7 +67,7 @@
 -----
 ### 12.Transformer
 -----
- *![image](images/transformer.jpg)\
+ *The Transformer - model architecture![image](images/transformer.jpg)\
  *![image](images/tr_dot.jpg)
 ### 13.BERT 
 -----
