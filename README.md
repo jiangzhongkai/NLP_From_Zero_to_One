@@ -14,7 +14,7 @@
 ## 数据集：
    *[数据集：搜狗实验室的数据集](https://www.sogou.com/labs/resource/cs.php)
    
-## 主要通过以下模型进行编写nlp:
+## 主要通过以下模型学习nlp:
 
 ### 1.NNLM  --2003
 
@@ -23,12 +23,12 @@
   ![image](images/nnlm.png)
 
 ### 2.Word2Vec 
-
+------
     1.CBOW
     2.skip-grams
 
 ### 3.FastText  --2016
-
+-----
   *[参考论文:]\
   *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/FastText)\
   *分级softmax![image](images/H-softmax.jpg)\
@@ -37,15 +37,15 @@
     
 
 ### 4.TextCNN   --2014 
-
+------
   *[参考论文：Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882)\
   *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/TextCNN)\
   ![image](images/textCNN.jpg)
   
 ### 5.TextRNN
-
+-----
 ### 6.TextRCNN
-
+-----
   *[参考论文:recurrent convolutional neural networks for text classification](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9745/9552)\
   *[实现代码]\
   ![image](images/TextRCNN.jpg)
@@ -58,19 +58,19 @@
 -----
 
 ### 9.BiLSTM+Attention
---
+-----
 
 ### 10.Seq2Seq
---
+-----
 
 ### 11.Seq2Seq+Attention
-
+-----
 ### 12.Transformer
-
+-----
 ### 13.BERT 
-
+-----
 ### 14.HAN(等级注意力网络)
-     
+-----     
 
 ## 每个py文件主要是包含：
      >数据预处理
