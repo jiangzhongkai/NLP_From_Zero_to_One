@@ -67,6 +67,8 @@
 -----
 ### 12.Transformer
 -----
+ *![image](images/transformer.jpg)\
+ *![image](images/tr_dot.jpg)
 ### 13.BERT 
 -----
 ### 14.HAN(等级注意力网络)
