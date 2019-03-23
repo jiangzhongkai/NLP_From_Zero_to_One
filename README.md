@@ -52,10 +52,10 @@
   
 
 ### 7.TextLSTM
---
+-----
 
 ### 8.BiLSTM
---
+-----
 
 ### 9.BiLSTM+Attention
 --
