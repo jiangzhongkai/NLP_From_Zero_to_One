@@ -85,12 +85,13 @@
 ## 持续更新中，欢迎fork和关注
 
 ## 参考资料
-   >[Ateention原理和源码解析](https://zhuanlan.zhihu.com/p/43493999)\
+   >[Attention原理和源码解析](https://zhuanlan.zhihu.com/p/43493999)\
    >[Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf)\
    >[Seq2Seq+Attention](https://zhuanlan.zhihu.com/p/40920384)\
    >[Transformer详解](https://zhuanlan.zhihu.com/p/44121378)\
    >[BERT详解](https://zhuanlan.zhihu.com/p/46652512)\
-   >[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
+   >[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)\
+   >[Attention机制原理解析、模型分类以及应用](https://zhuanlan.zhihu.com/p/31547842)
 
 
 
