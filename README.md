@@ -52,12 +52,16 @@
   
 
 ### 7.TextLSTM
+--
 
 ### 8.BiLSTM
+--
 
 ### 9.BiLSTM+Attention
+--
 
 ### 10.Seq2Seq
+--
 
 ### 11.Seq2Seq+Attention
 
