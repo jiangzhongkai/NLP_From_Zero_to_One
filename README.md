@@ -37,42 +37,44 @@
     
 
 ### 4.TextCNN   --2014 
-------
+
   *[参考论文：Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882)\
   *[实现代码](https://github.com/jiangzhongkai/NLP_From_Zero_to_One/tree/master/TextCNN)\
   ![image](images/textCNN.jpg)
   
 ### 5.TextRNN
------
+
+
 ### 6.TextRCNN
------
+
   *[参考论文:recurrent convolutional neural networks for text classification](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9745/9552)\
   *[实现代码]\
   ![image](images/TextRCNN.jpg)
   
 
 ### 7.TextLSTM
------
+
 
 ### 8.BiLSTM
------
+
 
 ### 9.BiLSTM+Attention
------
+
 
 ### 10.Seq2Seq
------
+
 
 ### 11.Seq2Seq+Attention
------
+
+
 ### 12.Transformer
------
+
  *The Transformer - model architecture![image](images/transformer.jpg)\
  *(left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel![image](images/tr_dot.jpg)
 ### 13.BERT 
------
+
 ### 14.HAN(等级注意力网络)
------     
+     
 
 ## 每个py文件主要是包含：
      >数据预处理
