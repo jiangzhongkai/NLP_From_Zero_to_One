@@ -46,7 +46,7 @@
 
 ### 6.TextRCNN
 
-  *[参考论文:recurrent convolutional neural networks for text classification](http://link.zhihu.com/?target=http%3A//www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9745/9552)\
+  *[参考论文:recurrent convolutional neural networks for text classification](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9745/9552)\
   *[实现代码]\
   ![image](images/TextRCNN.jpg)
   
@@ -76,6 +76,12 @@
      4.模型保存
 
 ## 持续更新中，欢迎fork和关注
+
+
+## 参考资料
+   *[Ateention原理和源码解析](https://zhuanlan.zhihu.com/p/43493999)
+   *[Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
+   *[Seq2Seq+Attention](https://zhuanlan.zhihu.com/p/40920384)
 
 
 
