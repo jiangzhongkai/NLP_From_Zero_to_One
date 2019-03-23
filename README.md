@@ -69,19 +69,20 @@
      
 
 ## 每个py文件主要是包含：
-
-     1.数据预处理
-     2.模型搭建
-     3.模型训练
-     4.模型保存
+----
+     >数据预处理
+     >模型搭建
+     >模型训练
+     >模型保存
 
 ## 持续更新中，欢迎fork和关注
-
+-----
 
 ## 参考资料
-   >>[Ateention原理和源码解析](https://zhuanlan.zhihu.com/p/43493999)\
-   >>[Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf)\
-   >>[Seq2Seq+Attention](https://zhuanlan.zhihu.com/p/40920384)
+----
+   >[Ateention原理和源码解析](https://zhuanlan.zhihu.com/p/43493999)\
+   >[Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf)\
+   >[Seq2Seq+Attention](https://zhuanlan.zhihu.com/p/40920384)
 
 
 
