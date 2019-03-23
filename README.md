@@ -68,7 +68,7 @@
 ### 12.Transformer
 -----
  *The Transformer - model architecture![image](images/transformer.jpg)\
- *![image](images/tr_dot.jpg)
+ *(left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel![image](images/tr_dot.jpg)
 ### 13.BERT 
 -----
 ### 14.HAN(等级注意力网络)
