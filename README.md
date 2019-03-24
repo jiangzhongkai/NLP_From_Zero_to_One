@@ -94,7 +94,7 @@
    >[Attention机制原理解析、模型分类以及应用](https://zhuanlan.zhihu.com/p/31547842)\
    >[tensorflow实现RNN+Attention](https://github.com/jiangzhongkai/tf-rnn-attention)\
    >[Hierarchical Attention Networks for Document Classification(HAN)](http://www.aclweb.org/anthology/N16-1174)\
-   >[GloVe](https://nlp.stanford.edu/pubs/glove.pdf)\
+   >[GloVe论文](https://nlp.stanford.edu/pubs/glove.pdf)\
    >[Glove代码实现](https://github.com/maciejkula/glove-python/blob/master/glove/glove.py)
 
 
