@@ -91,7 +91,8 @@
    >[Transformer详解](https://zhuanlan.zhihu.com/p/44121378)\
    >[BERT详解](https://zhuanlan.zhihu.com/p/46652512)\
    >[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)\
-   >[Attention机制原理解析、模型分类以及应用](https://zhuanlan.zhihu.com/p/31547842)
+   >[Attention机制原理解析、模型分类以及应用](https://zhuanlan.zhihu.com/p/31547842)\
+   >[tensorflow实现RNN+Attention](https://github.com/jiangzhongkai/tf-rnn-attention)
 
 
 
