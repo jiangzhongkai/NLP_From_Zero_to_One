@@ -73,14 +73,14 @@
  *(left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel![image](images/tr_dot.jpg)
 ### 13.BERT 
 
-### 14.HAN(等级注意力网络)
+### 14.HAN(分层注意力网络)
      
 
 ## 每个py文件主要是包含：
-     >数据预处理
-     >模型搭建
-     >模型训练
-     >模型保存
+    >数据预处理
+    >模型搭建
+    >模型训练
+    >模型保存
 
 ## 持续更新中，欢迎fork和关注
 
@@ -92,7 +92,8 @@
    >[BERT详解](https://zhuanlan.zhihu.com/p/46652512)\
    >[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)\
    >[Attention机制原理解析、模型分类以及应用](https://zhuanlan.zhihu.com/p/31547842)\
-   >[tensorflow实现RNN+Attention](https://github.com/jiangzhongkai/tf-rnn-attention)
+   >[tensorflow实现RNN+Attention](https://github.com/jiangzhongkai/tf-rnn-attention)\
+   >[Hierarchical Attention Networks for Document Classification(HAN)](http://www.aclweb.org/anthology/N16-1174)
 
 
 
