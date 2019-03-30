@@ -1,8 +1,8 @@
 ## 主要是使用当下比较流行的深度学习框架进行NLP简单代码的编写
 
-| 水果 | 价格 | 数量 |
-| ---- |-----: |:---: |
-| 香蕉  | $1   | 5    |
+| 模型                | 论文地址           |   代码复现地址                  |  时间        |
+| --------            |---------:         |:-------- :                     | :--------:   |
+| 词袋模型  | [参考论文:A neural probabilistic language model](http://www.pengjingtian.com/2016/09/17/nnlm/   | [参考论文:A neural probabilistic language model](http://www.pengjingtian.com/2016/09/17/nnlm/ | 2003|
 
 
 ## 主流框架：
