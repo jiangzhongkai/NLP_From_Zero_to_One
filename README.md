@@ -4,6 +4,7 @@
 | :----------------:   | :---------------:  | :--------------: | :------------:|
 | 词袋模型        |      [论文地址](http://www.baidu.com)      |       [代码](http://www.baidu.com)    |2003    |
 | Word2Vec           | [论文地址](http://www.baidu.com)         |   [代码](http://www.baidu.com)       |2006     |
+| GloVe           | [论文地址](http://www.baidu.com)         |   [代码](http://www.baidu.com)       |2006     |
 | NNLM           | [论文地址](http://www.baidu.com)         |   [代码](http://www.baidu.com)       |2006     |
 | TextCNN           | [论文地址](http://www.baidu.com)         |   [代码](http://www.baidu.com)       |2006     |
 | TextRCNN           | [论文地址](http://www.baidu.com)         |   [代码](http://www.baidu.com)       |2006     |
