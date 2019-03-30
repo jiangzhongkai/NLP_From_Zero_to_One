@@ -1,10 +1,22 @@
 ## 主要是使用当下比较流行的深度学习框架进行NLP简单代码的编写
 
-| 模型        | 论文地址    |  代码复现地址  |   时间   |
-| --------   | -----:  | :----: | :----:|
-| 词袋模型        | [论文地址](http://www.baidu.com)      |   5    |2003|
-| Word2Vec        | $1      |   6    |2006|
-| TextCNN        | $1      |   7    |2007|
+| 模型              | 论文地址         |  代码复现地址       |   时间       |
+| :----------------:   | :---------------:  | :--------------: | :------------:|
+| 词袋模型        |      [论文地址](http://www.baidu.com)      |       [代码](http://www.baidu.com)    |2003    |
+| Word2Vec           | [论文地址](http://www.baidu.com)         |   [代码](http://www.baidu.com)       |2006     |
+| NNLM           | [论文地址](http://www.baidu.com)         |   [代码](http://www.baidu.com)       |2006     |
+| TextCNN           | [论文地址](http://www.baidu.com)         |   [代码](http://www.baidu.com)       |2006     |
+| TextRCNN           | [论文地址](http://www.baidu.com)         |   [代码](http://www.baidu.com)       |2006     |
+| Seq2Seq           | [论文地址](http://www.baidu.com)         |   [代码](http://www.baidu.com)       |2006     |
+| Seq2Seq+Attention           | [论文地址](http://www.baidu.com)         |   [代码](http://www.baidu.com)       |2006     |
+| Transformer           | [论文地址](http://www.baidu.com)         |   [代码](http://www.baidu.com)       |2006     |
+| Bert           | [论文地址](http://www.baidu.com)         |   [代码](http://www.baidu.com)       |2006     |
+| FastText           | [论文地址](http://www.baidu.com)         |   [代码](http://www.baidu.com)       |2006     |
+| BiLSTM+Attention           | [论文地址](http://www.baidu.com)         |   [代码](http://www.baidu.com)       |2006     |
+| Attention+LSTM_FCN           | [论文地址](http://www.baidu.com)         |   [代码](http://www.baidu.com)       |2006     |
+| HAN           | [论文地址](http://www.baidu.com)         |   [代码](http://www.baidu.com)       |2006     |
+
+
 
 
 
