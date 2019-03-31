@@ -69,9 +69,9 @@
 
 ### 6.TextRCNN
 
-  *[参考论文:recurrent convolutional neural networks for text classification](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9745/9552)\
-  *[实现代码]\
-  ![image](images/TextRCNN.jpg)
+  - [参考论文:recurrent convolutional neural networks for text classification](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9745/9552)
+  - [实现代码]
+  - ![image](images/TextRCNN.jpg)
   
 
 ### 7.TextLSTM
@@ -91,32 +91,32 @@
 
 ### 12.Transformer
 
- *The Transformer - model architecture![image](images/transformer.jpg)\
- *(left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel![image](images/tr_dot.jpg)
+ - The Transformer - model architecture![image](images/transformer.jpg)
+ - (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel![image](images/tr_dot.jpg)
 ### 13.BERT 
 
 ### 14.HAN(分层注意力网络)
      
 
 ## 每个py文件主要是包含：
-    >数据预处理
-    >模型搭建
-    >模型训练
-    >模型保存
+    - 数据预处理
+    - 模型搭建
+    - 模型训练
+    - 模型保存
 
 ## 持续更新中，欢迎fork和关注
 
 ## 参考资料
-   - [Attention原理和源码解析](https://zhuanlan.zhihu.com/p/43493999)\
-   - [Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf)\
-   - [Seq2Seq+Attention](https://zhuanlan.zhihu.com/p/40920384)\
-   - [Transformer详解](https://zhuanlan.zhihu.com/p/44121378)\
-   - [BERT详解](https://zhuanlan.zhihu.com/p/46652512)\
-   - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)\
-   - [Attention机制原理解析、模型分类以及应用](https://zhuanlan.zhihu.com/p/31547842)\
-   - [tensorflow实现RNN+Attention](https://github.com/jiangzhongkai/tf-rnn-attention)\
-   - [Hierarchical Attention Networks for Document Classification(HAN)](http://www.aclweb.org/anthology/N16-1174)\
-   - [GloVe论文](https://nlp.stanford.edu/pubs/glove.pdf)\
+   - [Attention原理和源码解析](https://zhuanlan.zhihu.com/p/43493999)
+   - [Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
+   - [Seq2Seq+Attention](https://zhuanlan.zhihu.com/p/40920384)
+   - [Transformer详解](https://zhuanlan.zhihu.com/p/44121378)
+   - [BERT详解](https://zhuanlan.zhihu.com/p/46652512)
+   - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
+   - [Attention机制原理解析、模型分类以及应用](https://zhuanlan.zhihu.com/p/31547842)
+   - [tensorflow实现RNN+Attention](https://github.com/jiangzhongkai/tf-rnn-attention)
+   - [Hierarchical Attention Networks for Document Classification(HAN)](http://www.aclweb.org/anthology/N16-1174)
+   - [GloVe论文](https://nlp.stanford.edu/pubs/glove.pdf)
    - [Glove代码实现](https://github.com/maciejkula/glove-python/blob/master/glove/glove.py)
 
 
